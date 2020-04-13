@@ -31,9 +31,9 @@ The raspberry can use the touchscreen more or less natively. If you're unsure ab
 
 I've added three files: 
 
-* buttonWatch.py: This is a small Python script used to detect pressed buttons and translate them into virtual keyboard presses in order to operate the chromium / chrome webbrowser. You need to install pyntput with:
+* buttonWatch.py: This is a small Python script used to detect pressed buttons and translate them into virtual keyboard presses in order to operate the chromium / chrome webbrowser. The script can right now scroll down, up, go ho the homepage and go back. The buttons are mapped to four free pins (6,13,19,26) on the RPi header. You need to install pyntput with:
 >  pip install pynput
-The script can right now scroll down, up, go ho the homepage and go back. The buttons are mapped to four free pins (6,13,19,26) on the RPi header.  
+
 
 * startChromium.sh: Starts the buttonWatch.py and then chromium browser in Kiosk mode. It disables the mouse pointer and a few things so it looks nice while idling.
 
