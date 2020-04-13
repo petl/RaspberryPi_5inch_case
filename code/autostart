@@ -1,0 +1,7 @@
+#this file is located in .config/lxsession/LXDE-pi/autostart copy it there
+
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@sudo wpa_supplicant -Dwext -iwlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+@sh /home/pi/startChromium.sh
+
