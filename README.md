@@ -6,6 +6,8 @@
 ![Final Work](https://github.com/petl/RaspberyyPi_5inch_case/blob/master/Photos/IMG_20200413_133427.jpg)
 The Final setup in its natural habitat with the weather, central heating and public transport monitor open. 
 
+More in depth explaination here: https://quiescentcurrent.com/blog/post.php?p_id=61
+
 ## Hardware
 
 I've used a Raspberry Pi 2, but a Pi 3 or 4 should also work. 
@@ -39,4 +41,5 @@ I've added three files:
 
 * autostart: this file is just the windowmanager autostart procedure and should be copied to .config/lxsession/LXDE-pi/autostart so it gets run when the pi has finished booting up. It basically starts the wifi and then the chromium browser. 
 
+The whole blog post with more pictures is [here](https://quiescentcurrent.com/blog/post.php?p_id=61).
 
